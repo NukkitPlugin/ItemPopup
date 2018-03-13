@@ -1,0 +1,8 @@
+name: ItemPopup
+main: presentkim.nukkitplugin.itempopup.ItemPopup
+api: ["1.0.5"]
+version: "1.0.0"
+author: PresentKim
+description: A plugin show custom item popup
+website: https://github.com/NukkitPlugin/ItemPopup
+load: POSTWORLD
