@@ -4,10 +4,17 @@ import cn.nukkit.plugin.PluginBase;
 import kim.present.nukkit.itempopup.lang.PluginLang;
 
 public class ItemPopup extends PluginBase {
+    private static ItemPopup instance = null;
+
+    public static ItemPopup getInstance() {
+        return instance;
+    }
+
     private PluginLang lang = null;
 
     @Override
     public void onLoad() {
+        instance = this;
     }
 
     @Override
