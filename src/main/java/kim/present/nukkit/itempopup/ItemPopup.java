@@ -1,4 +1,4 @@
-package presentkim.nukkitplugin.itempopup;
+package kim.present.nukkit.itempopup;
 
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.TextFormat;
